@@ -2,5 +2,15 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "test-all": "lerna run test",
+    "test-scope": "lerna run test --scope={@walnut/common,@walnut/server}",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "name": "yarn-workspaces-example"
 }

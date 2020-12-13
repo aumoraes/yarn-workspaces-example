@@ -8,10 +8,17 @@
     "test-since": "lerna run test --since",
     "test-scope": "lerna run test --scope={@walnut/common,@walnut/server}",
     "new-version": "lerna version --conventional-commits --yes",
-    "diff": "lerna diff"
+    "diff": "lerna diff",
+    "commit": "git cz"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "lerna": "^3.22.1"
   },
-  "name": "yarn-workspaces-example"
+  "name": "yarn-workspaces-example",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

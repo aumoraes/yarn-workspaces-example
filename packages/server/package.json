@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@walnut/common": "^1.1.0"
+    "@walnut/common": "^1.1.0",
+    "cowsay": "^1.4.0"
   },
   "scripts": {
     "test": "echo testing server with version: $npm_package_version"

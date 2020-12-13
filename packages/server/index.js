@@ -1,4 +1,4 @@
-const commonFunction = require("@walnut/common");
+const commonFunction = require("@walnut/date");
 const cowsay = require("cowsay");
 
 
